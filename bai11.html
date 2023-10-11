@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let m= +prompt("luong")
+    let t
+
+    if (m === 5000000){
+        alert( + m*0.05 +'Đ')
+    }
+    else if (m > 5000000 && m <= 10000000){
+        alert( + m*0.1 - 250000)
+    }
+    else if (m > 10000000 && m <= 18000000){
+        alert( + m*0.15 - 750000)
+    }
+    else if (m > 18000000 && m <= 32000000){
+        alert( + m*0.2 - 1650000)
+    }
+    else if (m > 32000000 && m <= 52000000){
+        alert( + m*0.25 - 3250000)
+    }
+    else if (m > 52000000 && m <= 80000000){
+        alert( + m*0.3 - 5850000)
+    }
+    else if (m > 80000000){
+        alert( + m*0.35 - 9850000)
+    }
+    else {
+        alert("error")
+    }
+</script>
